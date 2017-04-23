@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:background="@color/background"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent" >
+
+  <ScrollView android:layout_width="fill_parent"
+              android:layout_height="wrap_content" >
+
+    <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:padding="10dp"
+      android:orientation="vertical" >
+
+      <TextView android:id="@+id/textViewNotice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:textColor="@color/text"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="25sp" />
+
+      <TextView android:id="@+id/textViewNotice2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/main_menu_copyright"
+                android:textColor="@color/text"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="10sp" />
+
+      <View android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/divider" />
+
+      <TextView android:id="@+id/serviceEnabledTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/text"
+                android:textSize="15sp" />
+
+      <Button android:id="@+id/locationsEnableDisableButton"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:text="Disable" />
+
+      <View android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/divider" />
+
+      <TextView android:id="@+id/manageLocationsTextView"
+                android:text="@string/main_menu_manage_locations_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/text"
+                android:layout_marginBottom="10dp"
+                android:textSize="15sp" />
+
+      <Button android:id="@+id/locationsViewWebButton"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:text="Manage Locations" />
+
+      <View android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/divider" />
+
+      <TextView android:id="@+id/syncLocationsTextView"
+                android:text="@string/main_menu_sync_locations_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/text"
+                android:layout_marginBottom="10dp"
+                android:textSize="15sp" />
+
+      <Button android:id="@+id/locationsRefreshButton"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:text="Sync Locations" />
+
+      <View android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/divider" />
+
+    </LinearLayout>
+
+  </ScrollView>
+
+</LinearLayout>

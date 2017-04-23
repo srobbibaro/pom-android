@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:background="@color/background"
+              android:orientation="vertical"
+              android:padding="10dp"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent" >
+
+  <TextView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/notifications_header_text"
+            android:textColor="@color/text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="35sp" />
+
+  <View android:layout_width="fill_parent"
+        android:layout_height="3dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"
+        android:background="@color/divider" />
+
+  <TextView android:id="@+id/notificationsMessageText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/notifications_no_messages_text"
+            android:textColor="@color/text"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+  <View android:layout_width="fill_parent"
+        android:layout_height="3dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"
+        android:background="@color/divider" />
+
+  <Button android:id="@+id/notificationsActionButton"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:text="@string/notifications_action_button_text" />
+
+  <Button android:id="@+id/notificationsBackButton"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:text="@string/notifications_back_button_text" />
+</LinearLayout>

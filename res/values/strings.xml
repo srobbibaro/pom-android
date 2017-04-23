@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">POM</string>
+  <string name="main_menu_copyright">©2015-2016 Original Content Software</string>
+  <string name="auth_label">POM</string>
+  <string name="account_type">POMApp</string>
+  <string name="notifications_no_messages_text">There are no new messages.</string>
+  <string name="notifications_action_button_text">Action</string>
+  <string name="notifications_back_button_text">Back</string>
+  <string name="notifications_header_text">Notifications</string>
+  <string name="notify_search_timeout_title">No notification sent.</string>
+  <string name="notify_search_timeout_message">Click this message for more info.</string>
+  <string name="notify_search_timeout_notification_message">We think you are close to %1$s, but we are not able to tell if you have actually reached that location. (Sorry, this situation occurs from time to time due to current limitations with location-based technology.)\n\nIf you have actually reached %2$s, click the button below to send the notification.</string>
+  <string name="notify_error_gps_disabled_message">Your phone\'s location reporting setting has been turned off, and it must be on in order to use POM. POM is now disabled, meaning notifications will not be sent/received. You can re-enable location reporting in POM after you turn your phone\'s location reporting setting back on.</string>
+  <string name="main_menu_alert_location_not_enabled_message">Your phone\'s location reporting setting is not turned on, and it must be on in order to use POM.</string>
+  <string name="main_menu_alert_location_not_enabled_okay">Update Settings</string>
+  <string name="main_menu_alert_location_not_enabled_cancel">Cancel</string>
+  <string name="main_menu_alert_no_location_fetched_message">You cannot enable location reporting until you have at least one saved location.</string>
+  <string name="main_menu_alert_no_location_fetched_okay">Dismiss</string>
+  <string name="main_menu_sync_locations_text">Sync locations between the cloud and this device</string>
+  <string name="main_menu_manage_locations_text">Add, edit, and remove saved locations</string>
+</resources>
